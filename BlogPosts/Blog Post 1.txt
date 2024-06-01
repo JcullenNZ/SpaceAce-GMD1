@@ -1,0 +1,18 @@
+Rollerball:
+
+Over covid I began learning how Unity worked.
+I went through the stages of creating 2D games, but since 2020 I haven't been back to play with it.
+
+Rollerball gave me a reminder of the general workflow of making a game, but I hadn't spent much time making 3D games.
+I was not as comforatable making 3D surfaces for the ball to roll on, however I did get a reminder of several parts of Unity, such as:
+
+creating a plane
+scripting in c#
+creating a player controlled object
+building a play space
+making prefabs
+basic UI to reflect game state
+
+Although I had previously done all of these by following a course on 2D Unity game development, it was an interesting experience to go back several years later after 3 years of coding.
+
+These will be useful as I progress in creating my game.
