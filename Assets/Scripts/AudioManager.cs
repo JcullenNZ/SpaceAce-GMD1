@@ -9,7 +9,7 @@ public class AudioManager : MonoBehaviour
     public static AudioManager Instance;
     [SerializeField]
     private AudioMixer audioMixer;
-    [SerializeField] private Slider volumeSlider;
+    [SerializeField] private Slider musicSlider;
     [SerializeField] private Slider sfxSlider;
 
 [Header("------Audio Sources------")]
@@ -50,7 +50,7 @@ public AudioClip gameMusic2;
 
     public void MusicVolume()
     {
-        float volume = volumeSlider.value;
+        float volume = musicSlider.value;
         audioMixer.SetFloat("Music", Mathf.Log10(volume) * 20);
 
     }
